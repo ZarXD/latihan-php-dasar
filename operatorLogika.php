@@ -43,5 +43,18 @@
             echo "FALSE : Keduanya benar";
         }
     ?>
+    <h3>Operator NOT / !</h3>
+    <p>Memanipulasi dari aslinya true menjadi false</p>
+
+    <?php
+        $x = 100;
+        $y = 150;
+
+        if (!($x == 100)) {
+            echo "TRUE : x adalah 100";
+        } else {
+            echo "FALSE : x bukan 100";
+        }
+    ?>
 </body>
 </html>
