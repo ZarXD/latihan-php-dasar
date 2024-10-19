@@ -10,7 +10,7 @@ echo "Nama saya adalah ". $nama;
 $nama = "Fahadzzz";
 $namaBelakang = "Vidjar Apriza";
 $kampus = "LP3I Karawang";
-echo '<br>'. 'Nama saya '.$nama.' '$namaBelakang.' Kuliah di '.$kampus;
+echo '<br>'. 'Nama saya '.$nama.' '.$namaBelakang.' Kuliah di '.$kampus;
 
 
 ?>
