@@ -108,17 +108,17 @@
     $x = 5;
     $y = 10;
     
-    echo "Compare ".$x."Dengan ".$y." Hasil => ".($x <=> $y)."<br>";
+    echo "Compare ".$x." Dengan ".$y." Hasil <= ".($x <=> $y)."<br>";
     
     $x = 11;
     $y = 7;
     
-    echo "Compare ".$x."Dengan ".$y." Hasil <= ".($x <=> $y)."<br>";
+    echo "Compare ".$x." Dengan ".$y." Hasil => ".($x <=> $y)."<br>";
     
     $x = 10;
     $y = 10;
     
-    echo "Compare ".$x."Dengan ".$y." Hasil = ".($x <=> $y)."<br>";
+    echo "Compare ".$x." Dengan ".$y." Hasil = ".($x <=> $y)."<br>";
     ?>
 </body>
 </html>
